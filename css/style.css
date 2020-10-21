@@ -28,22 +28,26 @@ p {
     margin: 10px 0;
 }
 
+/* Padding */
+.py-1 {
+    padding: 10px;
+}
+
+.py-2 {
+    padding: 20px;
+}
+
+.py-3 {
+    padding: 30px;
+}
+
+
 /* Utility Classes */
 
 .clr {
     clear: both;
 }
 
-/* Padding */
-.py-1 {
-    padding: 10px;
-}
-.py-2 {
-    padding: 20px;
-}
-.py-3 {
-    padding: 30px;
-}
 
 .lg-heading {
     font-size: 40px;
@@ -211,6 +215,7 @@ p {
 
 #about-info {
     height: 300px;
+    padding-bottom: 40px;
 
 }
 
@@ -264,3 +269,35 @@ p {
     font-family: 'Lemonada',
     cursive;
 }
+
+/* Contact Form */
+#contact-form {
+    margin: 30px;
+}
+#contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input, 
+#contact-form textarea {
+    width: 100%;
+    padding:  10px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+
+#contact-form textarea {
+    height: 200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+    outline: none;
+    border-color: #f7c08a;
+}
+
