@@ -8,6 +8,10 @@
 /* Imports */
 @import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@500&display=swap');
 
+#mobile {
+    display: none;
+}
+
 /* Main Styling */
 
 html, body {
@@ -113,7 +117,7 @@ p {
     color: white;
 }
 
-#navbar h1 {
+#navbar .logo {
     float: left;
     padding: 20px;
 }
@@ -166,7 +170,7 @@ p {
 /* Home Info */
 
 #home-info {
-    height: 400px;
+    height: 450px;
 }
 
 #home-info .info-img {
@@ -214,7 +218,7 @@ p {
 /* About Info */
 
 #about-info {
-    height: 300px;
+    height: 100%;
     padding-bottom: 40px;
 
 }
@@ -243,7 +247,7 @@ p {
 /* Testimonials */
 
 #testimonials {
-    height: 600px;
+    height: 100%;
     background: url('../images/test-bg.jpg') no-repeat center center/cover;
     padding-top: 100px;
 }

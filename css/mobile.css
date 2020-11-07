@@ -1,0 +1,104 @@
+#navbar .logo {
+    float: none;
+    text-align: center;
+    width: 100%;
+}
+
+#navbar ul, #navbar ul li {
+    float: none;
+    width: 100%;
+}
+
+#navbar ul li a {
+    padding: 7px;
+    border-bottom: #444 dotted 1px;
+}
+
+#home-info {
+    height: 450px ;
+}
+
+#home-info .info-img {
+    display: none;
+}
+
+#home-info .info-content {
+    float: none;
+    width: 100%;
+    min-height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    /* overflow: hidden; */
+    justify-content: center;
+}
+
+.box {
+    float: none;
+    width: 100%;
+}
+
+#about-info .info-left {
+    float: none;
+
+    min-width: 100%;
+    padding: 20px;
+}
+
+#about-info .info-right {
+    float: none;
+    min-width: 100%;
+    padding: 20px;
+}
+
+#about-info p {
+    width: 100%;
+}
+
+.lg-heading {
+    text-align: center;
+    font-size: .2rem;
+    
+}
+
+#about-info .info-left {
+    margin-top: 30px;
+}
+
+
+#about-info .lg-heading {
+    font-size: 2rem;
+}
+
+#testimonials {
+    height: 100%;
+    background: url('../images/test-bg.jpg') no-repeat center center/cover;
+    padding-top: 1rem;
+}
+
+#testimonials .lg-heading {
+    font-size: 2rem;
+}
+
+#contact-form h1 {
+    font-size: 2rem;
+}
+
+#contact-form p {
+    text-align: center;
+    padding: .5rem;
+}
+
+#contact-form button {
+    align-items: center;
+}
+
+
+#contact-info .box {
+    border-bottom: dotted 1px #444;
+}
+
+#showcase .showcase-content {
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
